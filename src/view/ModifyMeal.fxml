@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="modifyMealContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ModifyMealController">
+   <children>
+      <ImageView fitHeight="701.0" fitWidth="1116.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/wood-texture-close.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="250.0" layoutY="21.0" text="Modify Meal Package">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="64.0" layoutY="27.0" onAction="#backToMealPageB" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Back" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="455.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="793.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="189.0" fitWidth="200.0" layoutX="200.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Loading___.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="189.0" fitWidth="200.0" layoutX="476.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Grapefruit%20Rosemary%20Spritzer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="189.0" fitWidth="200.0" layoutX="744.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Colorful%20glazed%20donuts%20containing%20donuts,%20donut,%20and%20food.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="191.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desserts">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Text>
+      <Text layoutX="483.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drinks">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Text>
+      <Text layoutX="750.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Others">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="200.0" layoutY="495.0" prefHeight="44.0" prefWidth="126.0" style="-fx-background-color: #535c68;" text="Search" textFill="#e8e5e5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="476.0" layoutY="495.0" prefHeight="44.0" prefWidth="126.0" style="-fx-background-color: #535c68;" text="Search" textFill="#e8e5e5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="744.0" layoutY="495.0" prefHeight="44.0" prefWidth="126.0" style="-fx-background-color: #535c68;" text="Search" textFill="#e8e5e5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

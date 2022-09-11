@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="hotelPageContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HotelPageController">
+   <children>
+      <ImageView fitHeight="701.0" fitWidth="1110.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Beach-Resort-Wallpaper-2560x1600-56173.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="40.0" layoutY="612.0" onAction="#contactUs" prefHeight="61.0" prefWidth="195.0" style="-fx-background-color: #303952;" text="Contact Us" textFill="#ddd4d6">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="56.0" layoutY="179.0" onAction="#rooms" prefHeight="87.0" prefWidth="346.0" style="-fx-background-color: #f3a683;" text="Rooms" textFill="#783914">
+         <font>
+            <Font size="41.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="171.0" layoutY="21.0" prefHeight="93.0" prefWidth="516.0" text="Blue Ocean Hotel*">
+         <font>
+            <Font name="System Italic" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="106.0" prefHeight="66.0" prefWidth="195.0" text="Matara.." textFill="#d5d4d9ae">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="56.0" layoutY="305.0" onAction="#mealPackage" prefHeight="87.0" prefWidth="346.0" style="-fx-background-color: #f3a683;" text="Meal Package" textFill="#783914">
+         <font>
+            <Font size="41.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="56.0" layoutY="434.0" onAction="#incomeReport" prefHeight="87.0" prefWidth="346.0" style="-fx-background-color: #f3a683;" text="Income Reports" textFill="#783914">
+         <font>
+            <Font size="41.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="916.0" layoutY="623.0" onAction="#backToDashBoard" prefHeight="50.0" prefWidth="146.0" style="-fx-background-color: #dcdde1;" text="Back">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

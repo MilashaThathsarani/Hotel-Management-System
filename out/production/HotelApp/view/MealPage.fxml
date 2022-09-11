@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealPageContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPageController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1049.0" layoutX="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/white%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ygpgv-2400x1723.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="383.0" layoutY="28.0" text="Meal Package">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="276.0" layoutY="432.0" onAction="#addNewPackage" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Add New Meal Package" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="276.0" layoutY="524.0" onAction="#modifyPackage" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Modify Meal Package" textFill="#090789">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="276.0" layoutY="612.0" onAction="#deleteMealPackage" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Delete Meal Package" textFill="#090789">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="97.0" layoutY="44.0" onAction="#backToRoomB" prefHeight="51.0" prefWidth="150.0" style="-fx-background-color: #7f8fa6;" text="Back">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="172.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Sri%20Lankan%20rice%20and%20curry%20stock%20photo_%20Image%20of%20lanka%20-%20173228298.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="492.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Chinese%20Eggplant%20with%20Garlic%20Sauce%20_%20Gourmandelle.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="808.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Try%20delicious%20ratatouille%20for%20dinner%20tonight!.jpg" />
+         </image></ImageView>
+      <Label layoutX="152.0" layoutY="334.0" text="Local Meals">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="454.0" layoutY="334.0" text="Chinese Meals">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="765.0" layoutY="328.0" text="French Meals">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

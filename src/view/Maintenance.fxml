@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="markMaintenanceContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MaintenanceController">
+   <children>
+      <ImageView fitHeight="701.0" fitWidth="1110.0" layoutX="80.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/white%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ygpgv-2400x1723.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="291.0" layoutY="23.0" text="Mark Room Is Maintenance">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="87.0" layoutY="23.0" onAction="#backToReceptionB" prefHeight="51.0" prefWidth="150.0" style="-fx-background-color: #7f8fa6;" text="Back">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="153.0" fitWidth="233.0" layoutX="439.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Screenshot%20(96).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="136.0" layoutY="417.0" text="02.Check if GFCI breaker has been included in the electric circuit for bathrooms.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="362.0" text="01.Check all light bulbs.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="467.0" text="03.Check if TVremote works.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="518.0" text="04.Chec for dial tone in the telephons installed at rooms.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="569.0" text="05.Check all drawer  handles and knobs are intract.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="622.0" text="06.Check if suffcient gloves and hair masks are available for all the staff responsible for cooking and serving food.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

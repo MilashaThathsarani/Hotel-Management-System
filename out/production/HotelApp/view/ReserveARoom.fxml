@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="reserveRoomContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReserveARoomController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1007.0" layoutX="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/white%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ygpgv-2400x1723.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="349.0" layoutY="14.0" prefHeight="77.0" prefWidth="411.0" text="Reserve A Room">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="289.0" layoutY="437.0" onAction="#addGuestDetail" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Add Guest Details" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="289.0" layoutY="527.0" onAction="#checkRoomAvailability" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Check Room Availability" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="289.0" layoutY="616.0" onAction="#selectMealPlan" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Select Meal Plan" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="54.0" onAction="#backToReceptionA" prefHeight="51.0" prefWidth="150.0" style="-fx-background-color: #7f8fa6;" text="Back">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="173.0" fitWidth="239.0" layoutX="435.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Screenshot%20(93).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

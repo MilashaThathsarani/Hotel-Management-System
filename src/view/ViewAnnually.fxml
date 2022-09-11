@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="viewAnnuallyContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewAnnuallyController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1111.0" layoutX="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/wood-texture-close.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="353.0" layoutY="14.0" text="View Annually">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="73.0" layoutY="30.0" onAction="#backToIncomeReportB" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Back" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblViewAnnually" layoutX="56.0" layoutY="143.0" prefHeight="414.0" prefWidth="999.0">
+        <columns>
+          <TableColumn fx:id="colCheck" prefWidth="110.0" text="Check" />
+          <TableColumn fx:id="colYearOne" prefWidth="178.0" text="2017" />
+            <TableColumn fx:id="colYearTwo" prefWidth="178.0" text="2018" />
+            <TableColumn fx:id="colYearThree" prefWidth="178.0" text="2019" />
+            <TableColumn fx:id="colYearFour" prefWidth="178.0" text="2020" />
+            <TableColumn fx:id="colYearFive" prefWidth="178.0" text="2021" />
+        </columns>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="919.0" layoutY="597.0" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Save" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

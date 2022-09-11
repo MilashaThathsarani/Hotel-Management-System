@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="receptionContext" prefHeight="713.0" prefWidth="1120.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceptionistController">
+   <children>
+      <ImageView fitHeight="702.0" fitWidth="1120.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Beach-Resort-Wallpaper-2560x1600-56173.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="68.0" layoutY="305.0" onAction="#reserveARoom" prefHeight="87.0" prefWidth="362.0" style="-fx-background-color: #f3a683;" text="Reserve a Room" textFill="#783914">
+         <font>
+            <Font size="41.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="68.0" layoutY="441.0" onAction="#maintenance" prefHeight="87.0" prefWidth="414.0" style="-fx-background-color: #f3a683;" text="Mark Room Is Maintenance" textFill="#783914">
+         <font>
+            <Font size="29.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="172.0" layoutY="23.0" prefHeight="93.0" prefWidth="516.0" text="Blue Ocean Hotel*">
+         <font>
+            <Font name="System Italic" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="505.0" layoutY="107.0" prefHeight="66.0" prefWidth="195.0" text="Matara.." textFill="#d5d4d9ae">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="926.0" layoutY="633.0" onAction="#backToDashBoard" prefHeight="50.0" prefWidth="146.0" style="-fx-background-color: #dcdde1;" text="Back">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="50.0" layoutY="622.0" onAction="#contactUsR" prefHeight="61.0" prefWidth="195.0" style="-fx-background-color: #303952;" text="Contact Us" textFill="#ddd4d6">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

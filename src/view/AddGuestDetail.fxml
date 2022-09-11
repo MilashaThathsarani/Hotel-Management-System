@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addGuestContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddGuestDetailController">
+   <children>
+      <ImageView fitHeight="701.0" fitWidth="1110.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/wood-texture-close.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="303.0" layoutY="26.0" text="Add Guest Details">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="67.0" layoutY="26.0" onAction="#backToReserveARoom" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Back" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtFullName" focusColor="#131314" labelFloat="true" layoutX="47.0" layoutY="149.0" onAction="#moveToNational" prefHeight="39.0" prefWidth="496.0" promptText="Full Name">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtNational" focusColor="#151617" labelFloat="true" layoutX="594.0" layoutY="149.0" onAction="#moveToTelephone" prefHeight="0.0" prefWidth="267.0" promptText="National ID NO:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtTelephone" focusColor="#161617" labelFloat="true" layoutX="50.0" layoutY="241.0" onAction="#moveToEmail" prefHeight="31.0" prefWidth="220.0" promptText="Telephone Number">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtEmail" focusColor="#1c1d1e" labelFloat="true" layoutX="319.0" layoutY="241.0" onAction="#moveToAddress" prefHeight="31.0" prefWidth="327.0" promptText="E-Mail">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtAddress" focusColor="#191a1b" labelFloat="true" layoutX="684.0" layoutY="241.0" prefHeight="31.0" prefWidth="377.0" promptText="Address">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="916.0" layoutY="302.0" onAction="#SaveUpdateOnAction" prefHeight="31.0" prefWidth="143.0" style="-fx-background-color: #e67e22;" text="+Save" />
+      <TableView fx:id="tblCustomer" layoutX="36.0" layoutY="361.0" prefHeight="334.0" prefWidth="1038.0">
+        <columns>
+          <TableColumn fx:id="colFullName" prefWidth="207.0" text="Full Name" />
+            <TableColumn fx:id="colNationalId" prefWidth="156.0" text="National ID NO:" />
+            <TableColumn fx:id="colTelephone" prefWidth="191.0" text="Telephone Number" />
+            <TableColumn fx:id="colEmail" prefWidth="191.0" text="E-mail" />
+            <TableColumn fx:id="colAddress" prefWidth="192.0" text="Address" />
+            <TableColumn fx:id="colDelete" prefWidth="100.0" text="Delete" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

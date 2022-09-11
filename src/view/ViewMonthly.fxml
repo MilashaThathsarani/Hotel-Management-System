@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="viewMonthlyContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewMonthlyController">
+   <children>
+      <ImageView fitHeight="702.0" fitWidth="1111.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/wood-texture-close.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="358.0" layoutY="22.0" text="View Monthly">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="61.0" layoutY="30.0" onAction="#backToIncomeReport" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Back" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblViewMonthly" layoutX="33.0" layoutY="154.0" prefHeight="422.0" prefWidth="1044.0">
+        <columns>
+          <TableColumn fx:id="colCheck" prefWidth="75.0" text="Check" />
+          <TableColumn fx:id="colJanuary" prefWidth="86.0" text="January" />
+            <TableColumn fx:id="colFebruary" prefWidth="86.0" text="February" />
+            <TableColumn fx:id="colMarch" prefWidth="78.0" text="March" />
+            <TableColumn fx:id="colApril" prefWidth="84.0" text="April" />
+            <TableColumn fx:id="colMay" prefWidth="79.0" text="May" />
+            <TableColumn fx:id="colJune" prefWidth="78.0" text="June" />
+            <TableColumn fx:id="colJuly" prefWidth="83.0" text="July" />
+            <TableColumn fx:id="colAugust" prefWidth="79.0" text="August" />
+            <TableColumn fx:id="colSeptember" prefWidth="82.0" text="September" />
+            <TableColumn fx:id="colOctober" prefWidth="77.0" text="October" />
+            <TableColumn fx:id="colNovember" prefWidth="79.0" text="November" />
+            <TableColumn fx:id="colDecember" prefWidth="76.0" text="December" />
+        </columns>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="926.0" layoutY="609.0" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Save" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

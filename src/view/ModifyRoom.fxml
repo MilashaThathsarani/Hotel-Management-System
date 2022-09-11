@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="modifyRoomContext" prefHeight="700.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ModifyRoomController">
+   <children>
+      <ImageView fitHeight="702.0" fitWidth="1113.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/wood-texture-close.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="361.0" layoutY="34.0" text="Modify Room">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="70.0" layoutY="33.0" onAction="#backToHomePageB" prefHeight="56.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Back" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="164.0" fitWidth="218.0" layoutX="98.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Modern%20Farmhouse%20Living%20Room%20Design%20—%20Gathered%20Living.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="276.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="505.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="186.0" fitWidth="200.0" layoutX="808.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Flex%20Room%20_%20Olivia%20Modern%20Hill%20Country.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="164.0" fitWidth="200.0" layoutX="322.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Living%20Room%20%5BMontenegro%20Stone%20House%20Renovation%20Vision%20Board%5D.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="164.0" fitWidth="200.0" layoutX="594.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/John-Richard%20Collection%20Pretty%20&amp;%20Pink%20Floral%20Arrangement.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="62.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Family Living Rooms">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="807.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Casual Family Rooms">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="552.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elegent Living Rooms">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="319.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cozy Family Rooms">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="91.0" layoutY="515.0" prefHeight="44.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Search" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="342.0" layoutY="515.0" prefHeight="44.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Search" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="585.0" layoutY="515.0" prefHeight="44.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Search" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="840.0" layoutY="515.0" prefHeight="44.0" prefWidth="136.0" style="-fx-background-color: #535c68;" text="Search" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

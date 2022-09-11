@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="roomContext" prefHeight="713.0" prefWidth="1120.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomPageController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1003.0" layoutX="59.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/white%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ygpgv-2400x1723.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="461.0" layoutY="34.0" text="Rooms">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="286.0" layoutY="442.0" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Add New Package" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="286.0" layoutY="535.0" onAction="#modifyRoom" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Modify Room" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="286.0" layoutY="442.0" onAction="#addNewRoom" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Add New Room" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="286.0" layoutY="629.0" onAction="#deleteRoom" prefHeight="61.0" prefWidth="532.0" style="-fx-background-color: #b2bec3;" text="Delete Room" textFill="#080887">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/sonnie-hiles-DhFHtkECn7Q-unsplash.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="311.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/hausphotomedia-aRT5UCf2MYY-unsplash.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="133.0" fitWidth="209.0" layoutX="604.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/sidekix-media-f1Rd2HsoKnk-unsplash.jpg" />
+         </image></ImageView>
+      <JFXButton buttonType="RAISED" layoutX="87.0" layoutY="34.0" onAction="#backToRoom" prefHeight="51.0" prefWidth="150.0" style="-fx-background-color: #7f8fa6;" text="Back">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="95.0" layoutY="340.0" text="Single Rooms">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="895.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/orlova-maria-6viJObrmnBw-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="332.0" layoutY="340.0" text="Double Rooms">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="630.0" layoutY="340.0" text="Trible Rooms">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="871.0" layoutY="337.0" text="Quad Rooms">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
