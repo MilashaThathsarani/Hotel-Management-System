@@ -1,6 +1,6 @@
-## Blue Ocean Hotel - My First Project
+## *Blue Ocean Hotel - My First Project_.*
 
-###This application developed by java and javafx.
+###This application developed by java and javafx.....
 
 ![image of ss](src/assets/images/1.png)
 
